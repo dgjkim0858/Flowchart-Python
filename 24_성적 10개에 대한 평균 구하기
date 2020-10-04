@@ -1,0 +1,7 @@
+score = []
+s = 0
+for i in range(10):
+  score.append(int(input('성적: ')))
+  s = s+score[i]
+print(score)
+print('평균: ', s/len(score))
